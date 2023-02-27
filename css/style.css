@@ -1,4 +1,36 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Alyssiafung
+* Created on: feb 2023
 * This file contains the CSS for index.html
 */
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+  background: #0000006e;
+  opacity: 0.004;
+}
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 5;
+}
+
+.mdl-layout__content {
+  padding-left: 18pt;
+  padding-right: 18pt;
+  padding-top: 18pt;
+}
+
+.mdl-textfield__error {
+  color: rgba(144 238 144 8.04%);
+}
+
+.page-content {
+  color: rgba(255 255 255 6.78%);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.50rem;
+}
+
+body {
+  background-color: rgba(100 148 237 2.21%);
+}
